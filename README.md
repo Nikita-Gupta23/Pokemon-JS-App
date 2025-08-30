@@ -1,6 +1,7 @@
-# 🧩 Pokémon Search App
+# 🧩 Pokémon Search App(HTML + JavaScript + CSS)
 
-A sleek and responsive React + Vite application that allows users to search any Pokémon by name and view their details — including image, types, and abilities — using the [PokéAPI](https://pokeapi.co/).
+A simple and responsive web application built with vanilla HTML, CSS, and JavaScript.
+This app allows users to search any Pokémon by name or ID and view details like sprite, types, height, weight, and base stats — using the [PokéAPI](https://pokeapi.co/).
 
 > 🔗 **Live Demo:** [pokemon-search-app-blush.vercel.app](https://pokemon-search-app-blush.vercel.app/)
 
@@ -8,42 +9,23 @@ A sleek and responsive React + Vite application that allows users to search any 
 
 ## ✨ Features
 
-- 🔍 **Search by name** — instant results as you type
-- 📦 **Fetch Pokémon data** (image, types, abilities) from PokéAPI
+- 🔍 **Search by name or ID** — fetch Pokémon details instantly
+- 📦 **Displays Pokémon image** (image, types, abilities) from PokéAPI
 - ❌ **Handles invalid names** with clear UI feedback
 - ⚡ **Responsive design** optimized for mobile & desktop
-- 🌈 **Minimalist Tailwind UI** for smooth user experience
+- 🌈 **Dynamic type badges** (Fire, Water, Grass, etc.) styled with CSS
+- 📊 **Shows base stats** (HP, Attack, Defense, Sp. Attack, Sp. Defense, Speed) in a clean table
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React (with Vite)
-- 🎨 Tailwind CSS
-- 🌐 PokéAPI
+- 🌐 HTML
+- 🎨 CSS
+- ⚡ Vanilla JavaScript
+- 🗂️ PokéAPI (via freeCodeCamp proxy to avoid CORS issues)
 
----
-
-## ⚙️ Getting Started
-
-To run this project locally:
-
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/Nikita-Gupta23/Pokemon-search-app.git
-cd Pokemon-search-app
-```
-
-2. **Install Dependencies**
-```bash
-npm install
-```
-
-3. **Start development server**
-```bash
-npm run dev
-```
 ---
 
 ## ✅ Deployment
@@ -59,9 +41,7 @@ To deploy your own version:
 ---
 
 ## 🚀 Future Improvements
--  Add dark mode toggle 🌙
-
- - Display stats (HP, Attack, Defense, etc.)
+ -  Add dark mode toggle 🌙
 
  - Loading skeleton or spinner while fetching
 
